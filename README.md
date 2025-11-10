@@ -38,4 +38,4 @@ zyf已做步骤：
 7. 运行结果放在results/pnet文件夹中
 
 **实现RNet的50个epoch (2025/11/10 - )**
-1. 运行`gen_rnet_data.py`
+1. 运行`gen_rnet_data.py`，实现生成训练样本：- RNet 样本：从 PNet 输出中裁剪候选框，尺寸 24×24，运行结果将出现在train_data中的12文件夹
