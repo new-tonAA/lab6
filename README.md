@@ -3,6 +3,30 @@
 
 实验指导 https://www.zybuluo.com/mymy/note/1621354
 
+文件结构
+
+
+注意：部分大文件不在github，记得去微信找  
+mtcnn_pytorch/  
+├── annotations/下面一堆txt（将annotations压缩包解压放到这里）  
+├── data/（把12、24、48文件夹放到这里）  
+├── models/  
+├── preprocessing/  
+├── result/（训练结果）  
+│   └── pnet/  
+│       └── log_bs512_lr0.010_072402/  
+├── tools/  
+├── train_data/（pnet生成12x12结果）  
+├── training/  
+├── .gitignore  
+├── README.md  
+├── checkpoint.py  
+├── config.py  
+├── test_image.py  
+├── test_on_FDDB.py  
+├── test_youModel_images.py  
+
+
 zyf已做步骤：实现PNet的50个epoch (2025/11/9 - 2025/11/10)
 1. 运行`split_wider.py`，实现annotations中两个txt文件的合并（项目中已有结果）
 2. 将数据集http://shuoyang1213.me/WIDERFACE/ 下载后解压到与lab4**同级**（也就是mtcnn_pytorch与lab4同级）
