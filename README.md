@@ -10,3 +10,4 @@ zyf已做步骤：实现PNet的20个epoch
 4. 运行`assemble_pnet.py`
 5. 将4中的12文件夹移动到data文件夹下
 6. 运行pnet的train.py
+7. 运行结果放在results/pnet文件夹中
