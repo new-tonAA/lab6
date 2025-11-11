@@ -39,3 +39,5 @@ zyf已做步骤：
 
 **实现RNet的50个epoch (2025/11/10 - )**
 1. 运行`gen_rnet_data.py`，实现生成训练样本：- RNet 样本：从 PNet 输出中裁剪候选框，尺寸 24×24，运行结果将出现在train_data中的12文件夹
+2. 运行`assemble_rnet_imglist.py`，生成imglist_anno_24.txt，保证放入annotations文件夹中  
+3. 运行
